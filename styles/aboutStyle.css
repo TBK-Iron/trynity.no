@@ -1,0 +1,29 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: navy;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-info {
+    line-height: 1.6;
+}
+
+.project-info p {
+    margin-bottom: 20px;
+}
+
+.project-info p strong {
+    color: navy;
+}

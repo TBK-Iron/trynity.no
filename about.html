@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trynity</title>
+    <link rel="stylesheet" href="styles/pageStyle.css">
+    <link rel="stylesheet" href="styles/aboutStyle.css">
+</head>
+<body>
+    <div id="top-menu">
+        
+        <a href="index.html"><button>Welcome</button></a>
+
+        <a href="docs/docsIndex.html"><button>Docs</button></a>
+
+        <a href="about.html"><button>About</button></a>
+
+        <a href="contact.html"><button>Contact</button></a>
+
+        <a href="https://github.com/TBK-Iron/TrynityEngine-Demo" target="_blank"><button>Demo</button></a>
+   
+    </div>
+
+    <div class="container">
+        <h1>!UNFINISHED PAGE!</h1>
+        <h1>About Trynity Engine</h1>
+        <div class="project-info">
+            
+            <p><strong>Project :</strong> Basic 3D Graphics Engine and Game Engine</p>
+            <h2>Description:</h2>
+            <p>
+                Trynity engine is a basic implementation of a 3D graphics engine and a game engine. It utilizes
+                technoligies such as texture rasterization, mipmapping, z-buffering, multithreading and more to
+                render 3D object. The game engine implements 3D objects, entities, and an axis-aligned 
+                collision box system that can be used for many different applications such as hitboxes, deathboxes, 
+                and collision-detection. In this description i will talk about how Trynity engine was made, 
+                what difficulties i experienced when making it, and how i came to the decisions i did when 
+                making it.
+            </p>
+            <p>
+                This project was originally made as a semester project for the course INF101 at the University 
+                of Bergen, where it won the award for the most impressive project. I got the idea for this
+                project when i was playing around with making a very basic 3D raycaster in python, and i
+                wanted to expand on this. The goal was to make a first person shooter game resembling the 
+                original DOOM game, which i belive i succeeded in doing.
+            </p>
+            <p>
+                When development started i had 4 weeks to make the project, and i quickly realized that i
+                would need to spend every moment i had if i wanted to finish it in time. I started by making
+                a recreation of the raycaster i had made in python, but in Java. The difference was this time
+                i knew i needed to expand it so that the camera object could rotate and move around, which was
+                a task that proved to be more difficult than i had anticipated, as the method i had previously
+                used to render 3D object was not at all compatible with the new goals i had in mind. So the first
+                few days of development were spent just trying to figure a system that would work with camera rotation.
+            </p>
+            <p>
+                Eventually i believed i had found a solution that involved rotating every 3D object in the scene backwards
+                the rotation the camera had, but i still had the issue of faces outside the camera's view (view frustum)
+                still being rendered as if they were inside the view frustum. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
